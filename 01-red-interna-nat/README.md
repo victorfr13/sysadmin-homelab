@@ -62,7 +62,6 @@ apt install iptables-persistent
 netfilter-persistent save
 ```
 
-![Terminal con IP forwarding activado](imagenes/04-ip-forwarding.png)
 
 ![Terminal con reglas NAT/FORWARD verificadas](imagenes/05-terminal-iptables.png)
 
