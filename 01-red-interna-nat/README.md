@@ -83,10 +83,6 @@ de reenvío (FORWARD) entre `vmbr1` y `vmbr0` en ambos sentidos.
 VM conectada a `vmbr1`, se realizará al desplegar la VM del Controlador de 
 Dominio en el siguiente proyecto.
 
-## Problemas encontrados
-[Rellenar con cualquier incidencia real durante el proceso: por ejemplo, si 
-tuviste que revisar el nombre exacto de la interfaz física para el NAT, algún 
-error de sintaxis, etc.]
 
 ## Próximos pasos
 - Despliegue de la VM con Windows Server 2025 sobre esta red (`vmbr1`)
