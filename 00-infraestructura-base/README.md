@@ -16,20 +16,20 @@ web desde un segundo equipo.
 - Bridge `vmbr0` configurado sobre la interfaz física, con IP estática `192.168.100.2/24`
 - Esta es la red de gestión del host y la que da acceso a la interfaz web de Proxmox
 
-![Configuración de red - vmbr0](Images/02-configuracion-red.png)
+![Configuración de red - vmbr0](Imagenes/02-configuracion-red.png)
 
 ## Almacenamiento
 Configuración por defecto de Proxmox:
 - **local**: tipo Directorio (`/var/lib/vz`), usado para ISOs, backups y plantillas
 - **local-lvm**: tipo LVM-Thin, usado para discos de máquinas virtuales y contenedores
 
-![Almacenamiento configurado](Images/03-almacenamiento.png)
+![Almacenamiento configurado](Imagenes/03-almacenamiento.png)
 
 ## Estado de recursos
 Vista general del nodo en el momento de la documentación: uso de CPU, memoria y 
 almacenamiento, junto con el estado del nodo.
 
-![Recursos del nodo](Images/01-recursos-nodo.png)
+![Recursos del nodo](Imagenes/01-recursos-nodo.png)
 
 ## Acceso remoto
 Se accede a la interfaz web de Proxmox (puerto 8006) desde un segundo equipo 
