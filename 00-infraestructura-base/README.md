@@ -23,7 +23,7 @@ Configuración por defecto de Proxmox:
 - **local**: tipo Directorio (`/var/lib/vz`), usado para ISOs, backups y plantillas
 - **local-lvm**: tipo LVM-Thin, usado para discos de máquinas virtuales y contenedores
 
-![Almacenamiento configurado](images/03-almacenamiento.png)
+![Almacenamiento configurado](Images/03-almacenamiento.png)
 
 ## Estado de recursos
 Vista general del nodo en el momento de la documentación: uso de CPU, memoria y 
