@@ -62,9 +62,6 @@ apt install iptables-persistent
 netfilter-persistent save
 ```
 
-
-![Terminal con reglas NAT/FORWARD verificadas](imagenes/05-terminal-iptables.png)
-
 ## Verificación
 
 Se confirmó con `ip a` que ambos bridges están activos (estado UP) y correctamente configurados:
@@ -78,6 +75,8 @@ iptables -L FORWARD -n -v
 ```
 Confirmando la regla MASQUERADE para la subred 192.168.50.0/24 y las reglas 
 de reenvío (FORWARD) entre `vmbr1` y `vmbr0` en ambos sentidos.
+
+![Terminal con reglas NAT/FORWARD verificadas](imagenes/05-terminal-iptables.png)
 
 **Pendiente**: verificación de conectividad real (ping a internet) desde una 
 VM conectada a `vmbr1`, se realizará al desplegar la VM del Controlador de 
