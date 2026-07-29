@@ -146,3 +146,8 @@ la salida a internet; se cambiará para apuntar a la propia IP del DC
 - Cambio de DNS de DC01 para apuntar a sí mismo (192.168.50.10)
 - Instalación del rol DHCP y configuración del ámbito para la red 192.168.50.0/24
 - Instalación de Windows 11 en PC01 y unión al dominio recibiendo IP por DHCP
+## Próximos pasos
+- Instalación de AD DS y DNS en DC01, promoción a Controlador de Dominio
+- Cambio de DNS de DC01 para apuntar a sí mismo (192.168.50.10)
+- Instalación del rol DHCP y configuración del ámbito para la red 192.168.50.0/24
+- Instalación de Windows 11 en PC01 y unión al dominio recibiendo IP por DHCP
