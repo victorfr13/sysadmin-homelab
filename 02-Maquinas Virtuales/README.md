@@ -68,6 +68,8 @@ múltiples servidores físicos, no aplicables a un homelab de un único host.
 Se eligió la versión con interfaz gráfica (frente a Server Core) para 
 facilitar la gestión y la documentación del proyecto.
 
+![Selección de edición de Windows Server](imagenes/07-dc01-seleccion-edicion.png)
+
 ### Selección de disco: driver VirtIO no incluido
 Durante la instalación, el disco de 60 GB no aparecía disponible, ya que 
 Windows no incluye de forma nativa el controlador VirtIO Block.
@@ -146,4 +148,3 @@ la salida a internet; se cambiará para apuntar a la propia IP del DC
 - Cambio de DNS de DC01 para apuntar a sí mismo (192.168.50.10)
 - Instalación del rol DHCP y configuración del ámbito para la red 192.168.50.0/24
 - Instalación de Windows 11 en PC01 y unión al dominio recibiendo IP por DHCP
-
