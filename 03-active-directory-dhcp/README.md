@@ -1,6 +1,6 @@
 # Active Directory (AD DS) y DHCP en DC01
 
-## Objetivo
+## Objetivos
 Convertir el servidor `DC01` (Windows Server 2025) en un Controlador de Dominio 
 funcional, con Active Directory Domain Services (AD DS), DNS propio, una 
 estructura básica de Unidades Organizativas, usuarios y grupos, y servicio 
